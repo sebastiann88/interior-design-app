@@ -1,0 +1,26 @@
+.wrapper {
+  height: 100vh;
+}
+
+.comparison-wrapper {
+  position: static;
+  height: 100%;
+}
+
+.sketch-and-toon {
+  position: static;
+  height: 100vh;
+}
+
+.lottie-animation {
+  position: static;
+  margin-bottom: -5px;
+}
+
+.full-render {
+  position: static;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
