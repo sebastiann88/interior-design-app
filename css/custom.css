@@ -11,7 +11,7 @@ body {
 
 .comparison-wrapper {
   position: relative;
-  width: 52em;
+  width: 40em;
   height: 20em;
 }
 
@@ -19,24 +19,24 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  height: 25em;
-  width: 20em;
+  height: 22em;
+  width: 15em;
 }
 
 .sketch-and-toon {
   position: fixed;
   top: 0;
   left: 0;
-  height: 25em;
-  width: 20em;
+  height: 22em;
+  width: 15em;
 }
 
 .gutter {
   position: fixed;
-  top: 0;
-  right: 1.75em;
+  bottom: 0;
+  right: 50%;
   cursor: e-resize;
-  height: 36.85em;
+  height: 6em;
   background: grey;
   margin-left: auto;
 }
