@@ -15,6 +15,33 @@
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <link href="css/custom.css" rel="stylesheet" type="text/css">
+  <!-- Use these three includes on your pages under <head> section -->
+
+<link type="text/css" rel="stylesheet" href="imagerotator/html/css/basic.css"/>
+<script type="text/javascript" src="imagerotator/html/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="imagerotator/html/js/imagerotator.js"></script>
+
+<!-- Copy this script block and paste under your page <head> section or somewhere inside your page <body> -->
+
+<script language="javascript" type="text/javascript">
+
+jQuery(document).ready(function(){
+
+    jQuery('#wr360PlayerId').rotator({
+        licenseFileURL: 'license.lic',
+    configFileURL: '360_assets/interior-designs-render/interior-designs-render.xml',
+    graphicsPath: 'imagerotator/html/img/basic',
+        alt: '360 degree view - interior-designs-render',
+        responsiveBaseWidth: 600,
+        responsiveMinHeight: 0,
+        googleEventTracking: false,
+    });
+
+});
+
+</script>
+
+<!-- End of script copy / paste -->
 </head>
 <body>
   <header>
@@ -22,6 +49,7 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="scooter.html">Scooter</a></li>
       <li><a href="industrial.html">Industrial</a></li>
+      <li><a href="web-rotate.html">Web Rotate 360</a></li>
     </ul>
   </header>
   <div class="verge-3d">

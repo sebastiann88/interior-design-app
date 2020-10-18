@@ -7,6 +7,7 @@ body {
   font-size: 26px;
   max-width: 1545px;
   margin: 0 auto;
+  padding: 15px;
 }
 
 ul.navbar {
@@ -30,12 +31,22 @@ div.verge-3d {
     height: 0;
 }
 
-div.verge-3d iframe {
+div.verge-3d iframe,
+div.verge-3d > div#content {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/*-- Use #content CSS to customize size, position, border, etc of your 360 view --*/
+
+#content
+{
+    width: 100%;
+    height: 338px;
+    /* border: 1px dotted #cecfd2; */
 }
 
 .content {
