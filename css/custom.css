@@ -8,6 +8,22 @@ body {
   max-width: 1545px;
   margin: 0 auto;
 }
+
+div.verge-3d {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+div.verge-3d iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .content {
   display: flex;
   width: 100%;
@@ -32,10 +48,12 @@ body {
 
 .full-render {
   height: 100%;
+  margin-top: 0.75em;
 }
 
 .sketch-and-toon {
   height: 100%;
+  margin-top: 0.75em;
 }
 
 .a {
@@ -45,7 +63,7 @@ body {
   background-position: center;
   height: 100%;
   width: 100%;
-  margin-top: 1.25em;
+  margin-top: 1.75em;
 }
 .b {
   background: url("../images/sketch.jpg");
@@ -54,12 +72,12 @@ body {
   background-position: center;
   height: 100%;
   width: 100%;
-  margin-top: 1.25em;
+  margin-top: 1.75em;
 }
 
 .gutter {
   cursor: e-resize;
   height: 100%;
   background: grey;
-  margin-top: 1.25em;
+  margin-top: 1.75em;
 }
